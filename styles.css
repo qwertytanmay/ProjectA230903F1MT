@@ -482,8 +482,8 @@ nav {
   margin-block: 2rem;
   display: grid;
   grid-template-columns: repeat(6, auto);
-  grid-template-rows: repeat(3, auto);
-  gap: 1rem;
+  /* grid-template-rows: repeat(3, auto); */
+  gap: 2rem;
 }
 .partners-stack figure:hover{
   scale: 1.2;
@@ -583,6 +583,9 @@ nav {
   .nav-announcement-row {
     font-size: 11px;
   }
+  .partners-stack{
+    grid-template-columns: 1fr !important;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -643,6 +646,12 @@ nav {
   }
   .course-btns{
     flex-direction: column;
+  }
+
+  .partners-stack{
+    grid-template-columns: repeat(2,auto);
+    gap: 0;
+
   }
 }
 
