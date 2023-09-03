@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- css sheet -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/5390e558d9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- navbar -->
+    <nav class="d-flex flex-column flex-wrap sticky-top">
+      <div
+        class="nav-all d-flex flex-warp justify-content-between align-items-center"
+      >
+        <div class="nav-L d-flex flex-warp align-items-center">
+          <img
+            src="https://acciojob.com/_next/static/media/full_logo.1a83ae71.svg?imwidth=256"
+            alt=""
+            width="170"
+            height="70"
+          />
+        </div>
+        <div
+          class="nav-R d-flex flex-warp justify-content-end align-items-center"
+        >
+          <div class="nR-col-1">
+            <label for="select-course">Courses</label>
+            <select class="select" name="course" id="select-course">
+              Courses
+              <option value="MERN Full-Stack Development">
+                MERN Full-Stack Development
+              </option>
+              <option value="Java Full-Stack Development">
+                Java Full-Stack Development
+              </option>
+              <option value="Data Analytics">Data Analytics</option>
+            </select>
+            <p>AccioJob Reviews</p>
+            <p>Career Guidance</p>
+            <label for="select-more">More</label>
+            <select class="select" name="more" id="select-more">
+              <option value="Events">Events</option>
+              <option value="Blogs">Blogs</option>
+              <option value="Refer & Earn">Refer & Earn</option>
+              <option value="Hire From Us">Hire From Us</option>
+              <option value="Become a Mentor">Become a Mentor</option>
+            </select>
+          </div>
+          <div class="nR-col-2 d-flex flex-warp justify-content-between">
+            <button class="login-btn">Login</button>
+            <button class="apply-now-btn">
+              Apply Now
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="nav-announcement-row">
+        Next batch starts in ⌛ 22 Days, Hurry! ️
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <header
+      class="hero d-flex flex-warp justify-content-between align-items-center"
+    >
+      <div class="hero-L d-flex flex-column flex-warp justify-content-evenly">
+        <h1>
+          Ignite Your <span>Tech Career</span> Today: Learn, Grow, and Get
+          Placed
+        </h1>
+        <p>
+          Full Stack Development | Data Structures & Algorithms | Data Analytics
+        </p>
+        <div
+          class="hero-records-card d-flex justify-content-around flex-warp align-items-center"
+        >
+          <div class="hrc-section d-flex align-items-center">
+            <div class="hrcs-img hrcs-img1">
+              <img src="./assets/Frame.png" alt="" />
+            </div>
+            <div class="hrcs-text">
+              <h4 class="score">1500+</h4>
+              <p>Students Placed</p>
+            </div>
+          </div>
+          <div class="hrc-section d-flex align-items-center">
+            <div class="hrcs-img hrcs-img2">
+              <img src="./assets/Vector.png" alt="" />
+            </div>
+            <div class="hrcs-text">
+              <h4 class="score">41 LPA</h4>
+              <p>Highest Salary</p>
+            </div>
+          </div>
+          <div class="hrc-section d-flex align-items-center">
+            <div class="hrcs-img hrcs-img3">
+              <img src="./assets/Group 48097590.png" alt="" />
+            </div>
+            <div class="hrcs-text">
+              <h4 class="score">300+</h4>
+              <p>Partner Companies</p>
+            </div>
+          </div>
+          <div class="hrc-section d-flex align-items-center">
+            <div class="hrcs-img hrcs-img4">
+              <img src="./assets/Group 48097589.png" alt="" />
+            </div>
+            <div class="hrcs-text">
+              <h4 class="score">8.3 LPA</h4>
+              <p>Average Salary</p>
+            </div>
+          </div>
+        </div>
+        <div class="made-with-love">Made with 💙 by an AccioJob Student</div>
+      </div>
+      <div class="arrow">
+        <img src="./assets/Arrow.png" alt="" />
+      </div>
+      <div class="hero-R">
+        <div class="CTA-form-card d-flex flex-column align-items-center">
+          <h3>Start Attending Live Classes for Free!</h3>
+          <p class="ctafc-p1">
+            Live lectures & Assignments curated by Top Tech Proffesionals
+          </p>
+          <div
+            class="ctafc-ip1 d-flex justify-content-start flex-warp align-items-center"
+          >
+            <i class="fa-regular fa-user"></i>
+            <input type="text" name="" id="" placeholder="Full Name" />
+          </div>
+          <div
+            class="ctafc-ip2 d-flex justify-content-start flex-warp align-items-center"
+          >
+            <i class="fa-solid fa-phone"></i>
+            <select name="cc" id="">
+              <option value="+91">+91</option>
+              <option value="+35">+35</option>
+              <option value="+402">+402</option>
+              <option value="+541">+541</option>
+            </select>
+            <input type="tel" maxlength="10" placeholder="Mobile Number" />
+          </div>
+          <button>
+            Apply Now For Free
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+          <p class="ctafc-p2">
+            By clicking ‘Apply Now For Free’, you agree to our
+          </p>
+          <p class="ctafc-p3">Terms & Conditions</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- courses -->
+    <div class="courses d-flex flex-column flex-warp align-items-center">
+      <p>learn full-stack web development</p>
+      <h2>OUR COURSES</h2>
+      <div
+        class="course-cards-stack d-flex flex-warp justify-content-center align-items-center"
+      >
+        <!-- course card -->
+        <section
+          class="course-card d-flex flex-column flex-warp align-items-start"
+        >
+          <div class="cat cat-SEC-1">SOFTWARE</div>
+          <div
+            class="cc-row-1 cc-row-1-SEC-1 d-flex flex-column flex-warp align-items-center"
+          >
+            <div class="back-img">
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                class="icon"
+                style="color: #945ff6"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 14h6v2h-6zM6.293 9.707 8.586 12l-2.293 2.293 1.414 1.414L11.414 12 7.707 8.293z"
+                ></path>
+                <path
+                  d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zM4 18V6h16l.002 12H4z"
+                ></path>
+              </svg>
+            </div>
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              class="icon"
+              style="color: #945ff6"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 14h6v2h-6zM6.293 9.707 8.586 12l-2.293 2.293 1.414 1.414L11.414 12 7.707 8.293z"
+              ></path>
+              <path
+                d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zM4 18V6h16l.002 12H4z"
+              ></path>
+            </svg>
+            <h4>Java Full Stack Development Track</h4>
+            <div
+              class="duration duration-SEC-1 d-flex flex-warp align-items-center"
+            >
+              <i class="fa-regular fa-clock"></i>
+              <p>DURATION: 8 MONTHS</p>
+            </div>
+            <div class="about-course">
+              Master DSA, Problem Solving, Full Stack and crack top Software
+              Development jobs
+            </div>
+          </div>
+          <div class="cc-row-2 d-flex flex-column flex-warp align-items-start">
+            <div class="curriculum-head d-flex align-items-center">
+              <svg
+                stroke="currentColor"
+                fill="none"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                class="icon-size"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"
+                ></path>
+              </svg>
+              <p>CURRICULUM</p>
+            </div>
+            <ul class="curriculum-list">
+              <li>Data Structures and Algorithms</li>
+              <li>Frontend Development with HTML, CSS, JS</li>
+              <li>Backend Development with Spring Framework</li>
+              <li>Internship / Capstone Project</li>
+              <li>Mock Interviews</li>
+              <li>Mentorship Sessions</li>
+            </ul>
+          </div>
+          <div class="cc-row-3 d-flex flex-column flex-warp align-items-start">
+            <div class="placement-head d-flex align-items-center">
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                class="icon-size"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20 6h-3V4c0-1.103-.897-2-2-2H9c-1.103 0-2 .897-2 2v2H4c-1.103 0-2 .897-2 2v11c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V8c0-1.103-.897-2-2-2zm-4 2v11H8V8h8zm-1-4v2H9V4h6zM4 8h2v11H4V8zm14 11V8h2l.001 11H18z"
+                ></path>
+              </svg>
+              <p>PLACEMENT</p>
+            </div>
+            <ul class="placement-list">
+              <li>Pay after Placement Option</li>
+              <li>Dedicated Learning Coach</li>
+            </ul>
+          </div>
+          <div
+            class="course-btns d-flex justify-content-between flex-warp align-items-center"
+          >
+            <button class="cb-btn1">
+              Brochure <i class="fa-solid fa-download"></i>
+            </button>
+            <button class="cb-btn2">
+              Learn More <i class="fa-solid fa-angle-right"></i>
+            </button>
+          </div>
+        </section>
+        <!-- course card -->
+        <section
+          class="course-card d-flex flex-column flex-warp align-items-start"
+        >
+          <div class="cat cat-SEC-2">SOFTWARE</div>
+          <div
+            class="cc-row-1 cc-row-1-SEC-2 d-flex flex-column flex-warp align-items-center"
+          >
+            <div class="back-img">
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                class="icon"
+                style="color: #007965"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g>
+                  <path fill="none" d="M0 0h24v24H0z"></path>
+                  <path
+                    d="M21 19h2v2H1v-2h2V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v15h4v-8h-2V9h3a1 1 0 0 1 1 1v9zM5 5v14h8V5H5zm2 6h4v2H7v-2zm0-4h4v2H7V7z"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              class="icon"
+              style="color: #007965"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g>
+                <path fill="none" d="M0 0h24v24H0z"></path>
+                <path
+                  d="M21 19h2v2H1v-2h2V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v15h4v-8h-2V9h3a1 1 0 0 1 1 1v9zM5 5v14h8V5H5zm2 6h4v2H7v-2zm0-4h4v2H7V7z"
+                ></path>
+              </g>
+            </svg>
+            <h4>MERN Full Stack Development Track</h4>
+            <div
+              class="duration duration-SEC-2 d-flex flex-warp align-items-center"
+            >
+              <i class="fa-regular fa-clock"></i>
+              <p>DURATION: 8 MONTHS</p>
+            </div>
+            <div class="about-course">
+              Master DSA, Problem Solving, Full Stack and crack top Software
+              Development jobs
+            </div>
+          </div>
+          <div class="cc-row-2 d-flex flex-column flex-warp align-items-start">
+            <div class="curriculum-head d-flex align-items-center">
+              <svg
+                stroke="currentColor"
+                fill="none"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                class="icon-size"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"
+                ></path>
+              </svg>
+              <p>CURRICULUM</p>
+            </div>
+            <ul class="curriculum-list">
+              <li>Data Structures and Algorithms</li>
+              <li>Frontend Development with HTML, CSS, JS</li>
+              <li>Backend Development with Spring Framework</li>
+              <li>Internship / Capstone Project</li>
+              <li>Mock Interviews</li>
+              <li>Mentorship Sessions</li>
+            </ul>
+          </div>
+          <div class="cc-row-3 d-flex flex-column flex-warp align-items-start">
+            <div class="placement-head d-flex align-items-center">
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                class="icon-size"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20 6h-3V4c0-1.103-.897-2-2-2H9c-1.103 0-2 .897-2 2v2H4c-1.103 0-2 .897-2 2v11c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V8c0-1.103-.897-2-2-2zm-4 2v11H8V8h8zm-1-4v2H9V4h6zM4 8h2v11H4V8zm14 11V8h2l.001 11H18z"
+                ></path>
+              </svg>
+              <p>PLACEMENT</p>
+            </div>
+            <ul class="placement-list">
+              <li>Pay after Placement Option</li>
+              <li>Dedicated Learning Coach</li>
+            </ul>
+          </div>
+          <div
+            class="course-btns d-flex justify-content-between flex-warp align-items-center"
+          >
+            <button class="cb-btn1">
+              Brochure <i class="fa-solid fa-download"></i>
+            </button>
+            <button class="cb-btn2">
+              Learn More <i class="fa-solid fa-angle-right"></i>
+            </button>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Hiring partners -->
+    <section
+      class="hiring-patners d-flex flex-column align-items-center justify-content-around flex-warp"
+    >
+      <p class="hp-p-gradient">Over 300+ hiring partners</p>
+      <h3>Top Startups & MNC’s Hire</h3>
+      <h3 class="hp-h3-blue">Software Engineer</h3>
+      <p class="hp-p-normal">From AccioJob upto 41 Lakhs Placement Report</p>
+      <section class="partners-stack">
+        <figure>
+            <img src="./assets/walmart.png" alt="">
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="./assets/ola.png" alt="" width="140px" height="20px" >
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="./assets/image 23 (1).png" alt="">
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="./assets/image 23 (2).png" alt="">
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="./assets/image 23.png" alt="">
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="./assets/image 38 (1).png" alt="">
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="./assets/image 38.png" alt="">
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="./assets/image 53 (1).png" alt="">
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="./assets/image 53.png" alt="">
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="./assets/image 54.png" alt="">
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="./assets/image 55.png" alt="">
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="./assets/image 57.png" alt="">
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="./assets/maersk.png" alt="">
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="./assets/mmtrip.png" alt="">
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="./assets/ptm.png" alt="">
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="./assets/tdigi.png" alt="">
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="./assets/thrwrks.png" alt="">
+            <figcaption></figcaption>
+        </figure>
+        <figure>
+            <img src="./assets/amazon.png" alt="">
+            <figcaption></figcaption>
+        </figure>
+        
+      </section>
+      <button class="hp-btn">Placement Report <i class="fa-solid fa-download"></i></button>
+    </section>
+  </body>
+</html>
