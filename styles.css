@@ -107,10 +107,10 @@ nav {
   padding-bottom: 4rem;
 }
 .hero-L {
-  width: 60%;
+  max-width: 60%;
 }
 .hero-L > h1 {
-  width: 70%;
+  max-width: 70%;
   font-size: 48px;
   font-weight: 700;
   color: var(--gray3);
@@ -129,7 +129,7 @@ nav {
 .hero-records-card {
   margin-top: 0.6rem;
   height: fit-content;
-  width: 80%;
+  max-width: 80%;
   border: 1px solid var(--gray0);
   border-radius: 8px;
   box-shadow: 2px 2px 40px var(--gray0);
@@ -197,7 +197,7 @@ nav {
 }
 .CTA-form-card {
   border: none;
-  width: 80%;
+  max-width: 80%;
   padding-inline: 1rem;
   box-shadow: 2px 2px 40px var(--blue2);
   border-radius: 20px;
@@ -281,85 +281,12 @@ nav {
   cursor: pointer;
 }
 
-/* MMMMMMM QQQQQQQQ --------------------------------------------------------------------*/
-@media screen and (max-width: 360px) {
-  .nav-all {
-    padding-inline: 0px;
-    flex-direction: column;
-  }
-  .nav-L > img {
-    padding: 0px;
-    width: 120px;
-    height: 40px;
-  }
-  .nR-col-1 {
-    font-size: 14px;
-  }
-  .nR-col-2 {
-    flex-direction: row;
-  }
-  .nR-col-2 button {
-    height: 30px;
-    border-radius: 10px;
-    padding: 0px;
-  }
-  .nav-announcement-row {
-    font-size: 11px;
-  }
-}
 
-@media screen and (max-width: 580px) {
-  .nav-all {
-    padding-inline: 0px;
-  }
-  .nav-R {
-    flex-direction: column;
-  }
-  .nav-announcement-row {
-    margin-top: 4px;
-    padding: 0px;
-    border-radius: 5px;
-  }
-
-  .hero {
-    flex-direction: column;
-    padding-inline: 5px;
-    align-items: center;
-    margin-bottom: 3rem;
-  }
-  .hero-L {
-    align-items: start;
-    justify-content: start;
-  }
-  .hero-records-card {
-    flex-direction: column;
-    align-items: start;
-    justify-content: flex-start;
-  }
-  .made-with-love {
-    margin-bottom: 2rem;
-    width: 100%;
-  }
-  .arrow {
-    display: none;
-  }
-  .hero-R {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: auto;
-  }
-  .CTA-form-card {
-    position: absolute;
-    width: 270px;
-    margin-left: 0;
-    left: 5%;
-  }
-}
 
 /* courses */
 .courses {
-  padding-block: 4rem;
+  padding-block: 4rem !important;
+  overflow: hidden;
   background-color: white;
 }
 
@@ -379,12 +306,13 @@ nav {
   color: var(--accioblue);
   font-weight: 600;
   margin-bottom: 3rem;
+  flex-wrap: wrap;
 }
 .course-cards-stack {
   gap: 2rem;
 }
 .course-card {
-  width: 25rem;
+  max-width: 25rem;
   position: relative;
   background-color: white;
   border-radius: 10px;
@@ -553,8 +481,8 @@ nav {
 .partners-stack {
   margin-block: 2rem;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(6, auto);
+  grid-template-rows: repeat(3, auto);
   gap: 1rem;
 }
 .partners-stack figure:hover{
@@ -626,4 +554,95 @@ nav {
   color: var(--gray1);
 }
 
+
+
+
+
+/* MMMMMMM QQQQQQQQ --------------------------------------------------------------------*/
+@media screen and (max-width: 360px) {
+  .nav-all {
+    padding-inline: 0px;
+    flex-direction: column;
+  }
+  .nav-L > img {
+    padding: 0px;
+    width: 120px;
+    height: 40px;
+  }
+  .nR-col-1 {
+    font-size: 14px;
+  }
+  .nR-col-2 {
+    flex-direction: row;
+  }
+  .nR-col-2 button {
+    height: 30px;
+    border-radius: 10px;
+    padding: 0px;
+  }
+  .nav-announcement-row {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav-all {
+    padding-inline: 0px;
+  }
+  .nav-R {
+    flex-direction: column;
+  }
+  .nav-announcement-row {
+    margin-top: 4px;
+    padding: 0px;
+    border-radius: 5px;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding-inline: 5px;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .hero-L {
+    align-items: start;
+    justify-content: start;
+  }
+  .hero-records-card {
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+  }
+  .made-with-love {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+  .arrow {
+    display: none;
+  }
+  .hero-R {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: auto;
+    margin-bottom: 30rem;
+  }
+  .CTA-form-card {
+    position: absolute;
+    width: 270px;
+    margin-left: 0;
+    left: 15%;
+  }
+  .course-cards-stack{
+    flex-direction: column;
+  }
+  .course-card{
+    max-width: 17rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .course-btns{
+    flex-direction: column;
+  }
+}
 
