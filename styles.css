@@ -839,12 +839,12 @@ nav {
   font-weight: 500;
   margin-bottom: 3rem;
 }
+
 .testimonial-stack-column{
   max-width: 70rem;
   gap: 1.5rem;
 }
 .testimonial-stack {
-  /* max-width: 70rem; */
   gap: 1.5rem;
   box-sizing: border-box;
   display: flex;
@@ -852,6 +852,7 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .testi-card {
   padding: 1rem;
   max-width: 20rem;
@@ -1076,6 +1077,10 @@ nav {
   }
   .learning-platform{
     display: none;
+  }
+
+  .testimonial-stack-column{
+    flex-direction: column;
   }
 }
 
