@@ -331,6 +331,13 @@ nav {
   left: 9rem;
   z-index: 1;
 }
+.course-card ul {
+  list-style: none;
+}
+
+.course-card ul li:before {
+  content: '✓ ';
+}
 .cat-SEC-1 {
   background-color: var(--purple);
 }
@@ -553,6 +560,8 @@ nav {
   font-size: 12px;
   color: var(--gray1);
 }
+
+
 
 
 
