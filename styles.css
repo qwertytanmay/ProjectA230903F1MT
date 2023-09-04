@@ -489,15 +489,17 @@ nav {
   margin-bottom: 1rem;
 }
 
+.hiring-patners marquee{
+  /* margin-inline: 7rem; */
+}
 .partners-stack {
   margin-block: 2rem;
   display: grid;
   grid-template-columns: repeat(6, auto);
-  /* grid-template-rows: repeat(3, auto); */
-  gap: 2rem;
+  gap: 0rem;
 }
 .partners-stack figure:hover {
-  scale: 1.2;
+  scale: 1.1;
   cursor: pointer;
 }
 .hp-btn {
@@ -921,8 +923,12 @@ nav {
   .hero-R{
     margin-bottom: 100rem;
   }
+
+  .hiring-patners marquee{
+    margin-inline: 0rem;
+  }
   .partners-stack {
-    grid-template-columns: 1fr !important;
+    /* grid-template-columns: 1fr !important; */
   }
   .m-cards-stack{
     flex-wrap: wrap;
@@ -1020,9 +1026,12 @@ nav {
     flex-direction: column;
   }
 
+  .hiring-patners marquee{
+    margin-inline: 0rem;
+  }
   .partners-stack {
-    grid-template-columns: repeat(2, auto);
-    gap: 0;
+    /* grid-template-columns: repeat(2, auto); */
+    gap: 1rem;
   }
 
   .m-cards-stack{
