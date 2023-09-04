@@ -829,8 +829,18 @@ nav {
   padding-block: 4rem;
   background-color: white;
 }
+.testimonials>h5{
+  font-weight: 800;
+  /* text gradient */
+  background: -webkit-linear-gradient(276.97deg, var(--purple), var(--blue3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .testimonials > h1 {
+  margin-block: 0.6rem;
+  font-size: 45px;
   color: var(--gray7);
+  font-weight: 700;
   font-style: italic;
 }
 .testimonials > p {
