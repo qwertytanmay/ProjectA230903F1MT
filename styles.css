@@ -768,6 +768,9 @@ nav {
     gap: 0;
 
   }
+  .ap-L{
+    align-items: center;
+  }
   .apl-badge{
     width: 100%;
     background: none;
