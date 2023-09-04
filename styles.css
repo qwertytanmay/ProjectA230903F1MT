@@ -907,7 +907,7 @@ nav {
   }
   .mcs-card{
     width: 250px;
-    height: 320px;
+    height: 340px;
     margin-block: 1rem;
     padding: 5px;
     box-sizing: border-box;
@@ -927,6 +927,7 @@ nav {
   }
   .mentor-text>h5{
     font-size: 15px;
+    width: 240px;
   }
   .mentor-text>p{
     font-size: 14px;
