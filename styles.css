@@ -496,8 +496,9 @@ nav {
   margin-block: 2rem;
   display: grid;
   grid-template-columns: repeat(6, auto);
-  gap: 0rem;
+  gap: 2rem;
 }
+
 .partners-stack figure:hover {
   scale: 1.1;
   cursor: pointer;
