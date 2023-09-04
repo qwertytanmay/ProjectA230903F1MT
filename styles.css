@@ -624,58 +624,7 @@ nav {
   height: 35;
 }
 
-/* Testimonials */
-.testimonials {
-  padding-block: 4rem;
-  background-color: white;
-}
-.testimonials > h1 {
-  color: var(--gray7);
-  font-style: italic;
-}
-.testimonials > p {
-  color: var(--gray7);
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 3rem;
-}
-.testimonial-stack {
-  max-width: 70rem;
-  gap: 1.5rem;
-  box-sizing: border-box;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.testi-card {
-  padding: 1rem;
-  max-width: 20rem;
-  min-height: 20rem;
-  border: 1px solid var(--gray0);
-  border-radius: 10px;
-  box-shadow: 0px 0px 40px rgb(194, 194, 194);
-  background-color: white;
-}
-.student-info {
-  gap: 1rem;
-}
-.si-text > h4 {
-  font-style: italic;
-  color: var(--gray3);
-}
-.si-text > p {
-  font-size: 16px;
-  color: var(--gray1);
-}
-.tc-sayings-p {
-  color: var(--gray1);
-  padding-right: 1rem;
-  text-align: start;
-}
-.tc-time-p {
-  font-size: 12px;
-  color: var(--gray1);
-}
+
 
 /* NSDC Accrediation */
 
@@ -867,6 +816,59 @@ nav {
   width: 40%;
   align-self: flex-end;
   cursor: pointer;
+}
+
+/* Testimonials /Students*/
+.testimonials {
+  padding-block: 4rem;
+  background-color: white;
+}
+.testimonials > h1 {
+  color: var(--gray7);
+  font-style: italic;
+}
+.testimonials > p {
+  color: var(--gray7);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+.testimonial-stack {
+  max-width: 70rem;
+  gap: 1.5rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.testi-card {
+  padding: 1rem;
+  max-width: 20rem;
+  min-height: 20rem;
+  border: 1px solid var(--gray0);
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px rgb(194, 194, 194);
+  background-color: white;
+}
+.student-info {
+  gap: 1rem;
+}
+.si-text > h4 {
+  font-style: italic;
+  color: var(--gray3);
+}
+.si-text > p {
+  font-size: 16px;
+  color: var(--gray1);
+}
+.tc-sayings-p {
+  color: var(--gray1);
+  padding-right: 1rem;
+  text-align: start;
+}
+.tc-time-p {
+  font-size: 12px;
+  color: var(--gray1);
 }
 
 /* MMMMMMM QQQQQQQQ --------------------------------------------------------------------*/
