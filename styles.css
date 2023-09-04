@@ -896,9 +896,43 @@ nav {
   .nav-announcement-row {
     font-size: 11px;
   }
+  .hero-R{
+    margin-bottom: 100rem;
+  }
   .partners-stack {
     grid-template-columns: 1fr !important;
   }
+  .m-cards-stack{
+    flex-wrap: wrap;
+  }
+  .mcs-card{
+    width: 250px;
+    height: 320px;
+    margin-block: 1rem;
+    padding: 5px;
+    box-sizing: border-box;
+    object-fit: contain;
+    justify-content: center;
+  }
+  .mi-pic{
+    position:unset;
+  }
+  .mentor-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .mentor-text>h3{
+    font-size: 20px;
+  }
+  .mentor-text>h5{
+    font-size: 15px;
+  }
+  .mentor-text>p{
+    font-size: 14px;
+    width: 240px;
+  }
+
 }
 
 @media screen and (max-width: 800px) {
