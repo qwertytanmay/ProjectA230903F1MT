@@ -334,6 +334,7 @@ nav {
 }
 
 .course-card ul li:before {
+  color:var(--blue2);
   content: "✓ ";
 }
 .cat-SEC-1 {
