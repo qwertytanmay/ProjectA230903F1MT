@@ -875,6 +875,10 @@ nav {
   box-shadow: 0px 0px 40px rgb(194, 194, 194);
   background-color: white;
 }
+.testi-card:hover {
+  scale: 1.005;
+}
+
 .student-info {
   gap: 1rem;
 }
